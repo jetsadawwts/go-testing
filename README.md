@@ -14,5 +14,7 @@ t.Run(string, func(t *testing.T)) = Sub test log
 
 # other
 Arrange, Act, Assent pattern
+กรณีอยากจะตรวจสอบความถูกต้องของ integer ต้องใช้  uint
+... = space out คือการกระจายออกไป Ex got := sum([]int{2, 3, 3, -1}...) -> 2, 3, 3, -1
     
 
