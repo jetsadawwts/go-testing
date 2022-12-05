@@ -6,6 +6,36 @@ func TestSum(t *testing.T) {
 	// t.Log("testing sum")
 	// t.Error("testing sum")
 
+	t.Run("should null parameter", func(t *testing.T) {
+		// Arrange
+		want := 0
+		
+
+		//Act
+		got := sum([]int{}...)
+
+
+		//Assert
+		if got != want {
+			t.Errorf("sum(1, 2) = %d; want 3", got)
+		}
+	})
+
+	t.Run("should multi parameter", func(t *testing.T) {
+		// Arrange
+		want := 7
+		
+
+		//Act
+		got := sum([]int{2, 3, 3, -1}...)
+
+
+		//Assert
+		if got != want {
+			t.Error("Expected", 8, "Got", got)
+		}
+	})
+
 	t.Run("should return 3 when 1 and 2", func(t *testing.T) {
 		// Arrange
 		want := 3
