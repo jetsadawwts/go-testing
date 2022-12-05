@@ -1,0 +1,8 @@
+mode: set
+github.com/jetsadawwts/ticket/ticket.go:3.30,4.14 1 1
+github.com/jetsadawwts/ticket/ticket.go:7.2,7.15 1 1
+github.com/jetsadawwts/ticket/ticket.go:10.2,10.15 1 0
+github.com/jetsadawwts/ticket/ticket.go:13.3,13.11 1 0
+github.com/jetsadawwts/ticket/ticket.go:4.14,6.3 1 1
+github.com/jetsadawwts/ticket/ticket.go:7.15,9.3 1 1
+github.com/jetsadawwts/ticket/ticket.go:10.15,12.3 1 0
