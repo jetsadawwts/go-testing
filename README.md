@@ -11,7 +11,8 @@ open [filename] = เปิดไฟล์
 go fmt = จัด Format
 go vet = คำสั่งที่ช่วยหา คำสั่งที่คิดว่าจะผิด หรือมีข้อผิดพลาด
 go lint = ช่วยจัดการว่าเรานั้นเขียนได้ดีเเค่ไหน ค่อยจัดการหรือเเนะนำในการเขียน
-staticcheck ./… = รัน Staticcheck
+staticcheck ./... = รัน Staticcheck
+go doc = godoc -http=:6060
 
 
 # Coding
@@ -31,6 +32,10 @@ F2 = เปลี่ยนชื่อตัวเเปร
 
 # install
 gostaticcheck = go install -v honnef.co/go/tools/cmd/staticcheck@latest
+godoc = go install -v golang.org/x/tools/cmd/godoc@latest
+
+# link url
+go test = https://pkg.go.dev/testing
 
     
 
