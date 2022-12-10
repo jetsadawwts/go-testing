@@ -3,6 +3,7 @@ go test ./... = เปิดใช้งาน testing  ทั้งหมดต
 go test -v ./... = เปิดใช้งาน testing  ทั้งหมดตาม path บนโฟล์เดอร์ เเต่สามารถดู log ได้
 go test . = เปิดใช้งาน testing ทั้งหมดภายใน Sub โฟล์เดอร์
 go test -v . = เปิดใช้งาน testing ทั้งหมดภายใน Sub โฟล์เดอร์ เเต่สามารถดู log ได้
+go test -v = เปิดใช้งาน testing โฟล์เดอร์ เเต่สามารถดู log ได้
 go test -cover = Run test with converage เช็ดว่าเราเทสได้ครบทุกเงือนไขเเล้วหรือยัง
 go test -v -cover = Run test with converage เช็ดว่าเราเทสได้ครบทุกเงือนไขเเล้วหรือยัง เเต่สามารถดู log ได้
 go test -cover -coverprofile=c.out = Generating an c.out report
