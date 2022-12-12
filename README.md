@@ -14,6 +14,12 @@ go vet = คำสั่งที่ช่วยหา คำสั่งที�
 go lint = ช่วยจัดการว่าเรานั้นเขียนได้ดีเเค่ไหน ค่อยจัดการหรือเเนะนำในการเขียน
 staticcheck ./... = รัน Staticcheck
 go doc = godoc -http=:6060
+go build = go build -tags=name
+go test 
+    - go test -tags=integration
+    - go test -v -tags integration
+    - go test -v -tags db
+    - go test -v -tags integration, db
 
 
 # Coding
